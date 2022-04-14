@@ -1,0 +1,11 @@
+<html xmlns:th= "http://www.thymeleaf.org" >
+	<body>
+	<p>INFORMĀCIJA PAR PRODUKTU</p>
+	<p  th:text="${package.getTitle()}" ></p>
+	<p  th:text="${package.getDescription()}" ></p>
+	<p  th:text="${package.getPrice()}" ></p>
+	<p  th:text="${package.getQuantity()}" ></p>
+	
+	</body>
+
+</html>
